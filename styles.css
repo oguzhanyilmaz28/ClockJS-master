@@ -1,0 +1,30 @@
+body {
+  background-color: #515151;
+}
+h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-350%);
+  font-size:60px;
+  color: #d7d7d7;
+}
+#container{
+  min-height: 800px;
+  position: relative;
+}
+#clock{
+  text-align: center;
+  font-size:95px;
+  background-color: #050505;
+  color: #d7d7d7;
+  min-width: 520px;
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
